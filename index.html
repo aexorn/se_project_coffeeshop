@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-      Coffee Shop
-        </title>
-      <meta charset="utf-8"> 
+      <meta charset="utf-8">
         <meta name="viewport" content="width=device width, initial-scale=1">
         <meta name="author" content="Ashten Waukazo-Fedorchak">
-        <link rel="stylesheet" type="text/css" href="pages/index.css"> 
+        <!--TODO META KEYWORDS  FOR SEO-->
+        <link rel="stylesheet" type="text/css" href="./pages/index.css"/>
+        <link rel="stylesheet" type="text/css" href="./vendor/normalize.css"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>
+           Triple Espresso --ideal environment for some cozy coffee shop coding
+        </title>
     </head>
 
     <body>
         <div class="page">
-            <header class="header">
+           <header class="header">
               <nav class="nav">
                 <img
                   src="./images/logo.svg"
                   alt="Triple Espresso logo"
                   class="nav__logo"
                 />
-              <ul class="nav__links">
+                <ul class="nav__links">
                   <li>
-                    <a class="nav__link" 
+                    <a class="nav__link"
                     href="#recipes">Recipes</a>
                   </li>
                   <li>
@@ -38,65 +44,94 @@
                   </li>
                 </ul>
               </nav>
+
               <h1 class="header__title_blue">Specialty coffee</h1><br>
               <h1 class="header__title">in the Triple Peaks Library</h1>
               <p class="header__description">
                 Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
               </p>
              <img
-                src="./images/"
+                src="./images/background_header.svg"
                 alt="'Triple Espresso' coffee shop illustration"
                 class="header__image"
               />
               <div class="header__footer">
                 <h4 class="header__footer__heading">Hours
                     <ul class="header__footer__hours">
-                      <li class="header__footer__days">Weekdays:<p class="header__footer__times">9am&ndash;8pm</p>/li>
-                      <li class="header__footer__days">Weekends: <p class="header__footer__times">
-                        10am&ndash;6pm</p></li>
-                    </ul></div>
-                <p class="header__address">
-                  200 Success Avenue, The Town of Triple Peaks
-                </p>
+                      <li class="header__footer__days">Weekdays:
+                        <p class="header__footer__times">
+                         9am&ndash;8pm
+                       </p>
+                      </li>
+                      <li class="header__footer__days">Weekends:
+                        <p class="header__footer__times">
+                          10am&ndash;6pm
+                        </p>
+                      </li>
+                    </ul>
               </div>
+              <p class="header__address">
+                  200 Success Avenue, The Town of Triple Peaks
+              </p>
             </header>
             <!-- RECIPE VIDEO SECTION -->
             <main class="content">
                 <section class="recipes" id="recipes">
-                        <h2 class="recipe__title">Recipes</h2>
-                        <p class="recipe__description">That our readers love</p>
+                        <h2 class="recipe__title">Recipes
+                        </h2>
+                        <p class="recipe__description">That our readers love
+                        </p>
                         <ul class="videos">
-                            <li class="video">
-                                <div class="vid__content">
-                                </div>
-                                <ul class="vid__footer">
-                                  <li class="vid__title">
-                                    Aeropress recipe
-                                  </li>
-                                  <li class="vid__time">
-                                  ~5 min
-                                  </li>
-                                </ul>
-                             </li>
-                             <li class="video">
+                          <li class="video">
+                            <div class="vid__content">
+                            </div>
+                            <ul class="vid__footer">
+                              <li class="vid__title">
+                                Aeropress recipe
+                              </li>
+                              <li class="vid__time">
+                                ~5 min
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="video">
                             <div class="vid__content">
                             </div>
                             <ul class="vid__footer"></ul>
                               <li class="vid__title">
-                               French press recipe
+                                French press recipe
                               </li>
                               <li class="vid__time">
-                              ~15 min
+                                ~15 min
                               </li>
                             </ul>
                           </li>
-
                         </ul>
-                      </section>
+                  </section>
                 <!-- END RECIPE VIDEO SECTION -->
                 <!-- FORM -->
                 <section class="reservations" id="reservations">
                     <h2 class="reservation-form__heading">Book a table</h2>
+                    <!--<form id="reserve">
+                      <label for="name">
+                          Name
+                      </label><br>
+                      <input type="text" placeholder="Name" required="true" id="name"><br>
+                      <label for="number-of-guests">
+                      Number of Guests
+                      </label><br>
+                      <input type="number" placeholder="1-8" required="true" id="#ofguests"><br>
+                      <label for="date&time" id="date/time">
+                         date & time
+                      </label><br>
+                      <input type="datetime-local" required="true" id="date/time"><br>
+                      <label for="email">
+                        email
+                      </label><br>
+                      <input type="email" placeholder="email@email.com" required="true" id="email"><br><br>
+                      <input type="button" value="Book A Table"><br><br>
+                      <input type="checkbox" required="true" value="I agree with terms of use">
+                    </form>-->
                 </section>
 <!-- END FORM -->
                 <!--MENU -->
@@ -105,9 +140,9 @@
                         <h3 class="menu__heading">Menu</h3>
                         <p class="menu__description"></p>
                             <ul class="menu__content">
-                                <li class="menu__section">
-                            <div class="menu__section_filter">
-                                <h3 class="menu__section__heading">Filter</h3>
+                                <li class="menu__category">
+                            <div class="menu__category_filter">
+                                <h3 class="menu__category__heading">Filter</h3>
                                 <ul class="menu__items">
                                     <li class="menu__item"></li>
                                     <li class="menu__item"></li>
@@ -117,9 +152,9 @@
                                 </ul>
                             </div>
                                 </li>
-                                <li class="menu__section">
-                            <div class="menu__section_espresso">
-                                <h3 class="menu__section__heading">Espresso</h3>
+                                <li class="menu__category">
+                            <div class="menu__category_espresso">
+                                <h3 class="menu__category__heading">Espresso</h3>
                                 <ul class="menu__items">
                                     <li class="menu__item"></li>
                                     <li class="menu__item"></li>
@@ -128,9 +163,9 @@
                                 </ul>
                             </div>
                                 </li>
-                                <li class="menu__section">
-                            <div class="menu__section_baked-goods">
-                                <h3 class="menu__section__heading">Baked Goods</h3>
+                                <li class="menu__category">
+                            <div class="menu__category_baked-goods">
+                                <h3 class="menu__category__heading">Baked Goods</h3>
                                 <ul class="menu__items">
                                     <li class="menu__item"></li>
                                     <li class="menu__item"></li>
@@ -142,7 +177,7 @@
                             </div>
                                 </li>
                                 </ul>
-                    </div>
+
                 </section>
              <!-- end menu -->
              <!-- ABOUT COFFEE SHOP -->

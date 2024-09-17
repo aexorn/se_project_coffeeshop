@@ -2,6 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
+  font-family: "inter", "Arial", "Helvetica", sans-serif;
 }
 
 .header {
@@ -25,6 +26,8 @@
 }
 
 .header__title_blue {
+  font-family: "noto serif", "Times New Roman", "Times", serif;
+  color: aqua;
 }
 
 .header__description {
@@ -99,16 +102,16 @@
 .menu__content {
 }
 
-.menu__section_filter {
+.menu__category_filter {
 }
 
-.menu__section_espresso {
+.menu__category_espresso {
 }
 
-.menu__section_baked-goods {
+.menu__category_baked-goods {
 }
 
-.menu__section__heading {
+.menu__category__heading {
 }
 
 .menu__items {
@@ -117,4 +120,17 @@
 .menu__item {
 }
 
-//line 148 about block
+.about {
+}
+
+.about__image {
+}
+
+.about__content {
+}
+
+.about__title {
+}
+
+.about__paragraph {
+}
