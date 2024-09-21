@@ -6,3 +6,56 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.heading {
+  padding: 30px 80px 40px;
+  background-color: #ffffff;
+  background-image: ("./images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+}
+
+.nav__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.heading__title {
+  font-weight: 500;
+}
+.heading__title_blue {
+  font-family: "noto serif", "Times New Roman", Times, serif;
+  color: #2f80ed;
+}
+
+.heading__description {
+  font-family: "noto serif", "Times New Roman", Times, serif;
+  font-size: large;
+}
+.heading__image {
+  position: absolute;
+}
+
+.heading__footer {
+}
+
+.heading__paragraph {
+}
