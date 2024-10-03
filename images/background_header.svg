@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" fill="none" xmlns:v="https://vecta.io/nano"><g clip-path="url(#A)" fill="#f5f5f5"><circle cx="1156" cy="397" r="503"/><circle cx="605" cy="103" r="72"/></g><defs><clipPath id="A"><path fill="#fff" d="M0 0h1440v800H0z"/></clipPath></defs></svg>
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_201_437)">
+<circle cx="1156" cy="397" r="503" fill="#F5F5F5"/>
+<circle cx="605" cy="103" r="72" fill="#F5F5F5"/>
+</g>
+<defs>
+<clipPath id="clip0_201_437">
+<rect width="1440" height="800" fill="white"/>
+</clipPath>
+</defs>
+</svg>
