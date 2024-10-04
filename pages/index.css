@@ -8,8 +8,8 @@ s.page {
 }
 
 .header {
-  min-height: 720;
-  max-height: 800;
+  min-height: 720px;
+  max-height: 800px;
   padding: 30px 80px 40px;
   background: #ffffff url("../images/background_header.svg") no-repeat
   center/cover;
@@ -191,7 +191,3 @@ s.page {
   height: 100%;
 }
 
-.recipes__video-caption_title {
-}
-.recipes__video-caption_time {
-}
