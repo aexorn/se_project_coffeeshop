@@ -91,7 +91,7 @@
   z-index: 1;
 }
 .header__footer {
-  margin-top: 340px;
+  margin-top: 260px;
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -182,4 +182,68 @@
 .recipes__iframe {
   width: 100%;
   height: 100%;
+}
+
+.reservation {
+  background: #d9e7ff url("../images/background_reservation.svg") no-repeat
+    center/cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  margin: 100px auto 0 auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 80px auto 120px;
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+}
+
+.form__label {
+  margin: 0 auto 8px;
+}
+
+.form__input {
+  border-radius: 4px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #838383;
+  height: 60px;
+  margin: 0 0 32px;
+  width: 385px;
+}
+
+.form__input_btn {
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  opacity:1
+  transition: opacity 0.5s ease;
+}
+
+.form__input_btn:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  background: #2f80ed url("../images/check.svg");
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
 }
