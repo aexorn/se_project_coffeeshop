@@ -1,9 +1,12 @@
 .menu {
   padding: 100px 0;
-  background-color: #ffffff;
+  background: #ffffff url("../images/background_menu.svg") no-repeat
+    center/cover;
   color: #000000;
   margin: 0;
 }
+
+
 
 .menu__title {
   margin: 0 0 24px;
