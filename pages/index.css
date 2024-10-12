@@ -1,3 +1,4 @@
+@import url('../vendor/normalize.css');
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/content.css");
@@ -7,6 +8,7 @@
 @import url("../blocks/menu.css");
 @import url("../blocks/card.css");
 @import url("../blocks/about.css");
+@import url("../blocks/footer.css");
 
 .nav {
   display: flex;
