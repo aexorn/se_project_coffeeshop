@@ -30,12 +30,13 @@
   border-radius: 4px;
   background-color: #2f80ed;
   color: #ffffff;
-  opacity: 1;
-  transition: opacity 0.5s ease;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 
 .form__input_btn:hover {
-  opacity: 0.7;
+ background-color: #3f96f3;
+
 }
 
 .form__checkbox {
