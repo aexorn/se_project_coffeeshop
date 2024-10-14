@@ -28,7 +28,7 @@
   z-index: 2;
 }
 
-.header__span_accent {
+.header__span-accent {
   max-width: 729px;
   display: block;
   color: #2f80ed;
@@ -76,7 +76,8 @@
   margin: 0;
 }
 
-.header__address {
+.header__paragraph:last-child {
+
   margin-right: 80px;
   margin-top: 40px;
 }

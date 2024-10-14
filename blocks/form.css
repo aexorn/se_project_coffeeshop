@@ -23,7 +23,7 @@
   width: 385px;
 }
 
-.form__input_btn {
+.form__button {
   border-radius: 4px;
   background-color: #2f80ed;
   color: #ffffff;
@@ -31,7 +31,7 @@
   transition: background-color 0.5s ease;
 }
 
-.form__input_btn:hover {
+.form__button:hover {
  background-color: #3f96f3;
 
 }
