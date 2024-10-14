@@ -3,7 +3,7 @@
   background: #0a2750 url("../images/background_recipes.svg") no-repeat
     center/cover;
   padding: 100px 80px 215px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+
 }
 
 .recipes__title {
@@ -47,7 +47,6 @@
 .recipes__video-caption {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   display: flex;
