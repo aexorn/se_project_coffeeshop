@@ -14,8 +14,8 @@
 }
 
 .footer__logo{
-  height: 39;
-  width: 105;
+  height: 39px;
+  width: 105px;
 }
 
 .footer__column{
@@ -25,6 +25,7 @@
 .footer__social-heading{
 margin: 0;
 font-weight: bold;
+font-family: inherit;
 }
 
 .footer__list{
