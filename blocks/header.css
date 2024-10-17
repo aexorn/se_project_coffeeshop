@@ -39,7 +39,7 @@
 .header__image {
   position: absolute;
   top: 135px;
-  right: 20px;
+  right: 5px;
   width: 646px;
   height: 568px;
   z-index: -1;
