@@ -35,14 +35,6 @@
 
 }
 
-.recipes__video {
-  width: 480px;
-
-  /* position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; */
-}
 
 .recipes__video-caption {
   font-size: 20px;
@@ -51,7 +43,8 @@
   font-weight: 500;
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 24px;
 }
 
 .recipes__iframe {

@@ -6,6 +6,10 @@
     center/cover;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title {
@@ -38,24 +42,19 @@
 }
 .header__image {
   position: absolute;
-  top: 135px;
+  top: 124px;
   right: 5px;
   width: 646px;
   height: 568px;
   z-index: -1;
 }
 
-.header__image img {
-  width: 100%;
-  height: auto;
-  z-index: 1;
-}
 .header__footer {
-  margin-top: 260px;
+  margin-top: auto;
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
@@ -66,14 +65,9 @@
 .header__hours {
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__paragraph:last-child {
-
-  margin-right: 80px;
-  margin-top: 40px;
 }
